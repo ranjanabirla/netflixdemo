@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+.top-bg-img
+{
+    background-image: url('./public/img/netflix-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top-shade-bg
+{
+    background-color: rgba(0,0,0,0.6);
+    height: 768px;
+}
+.brand-name
+{
+    color: #e50914;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.login-group
+{
+    display: flex;
+}
+main{
+    color: #fff;
+    max-width: 725px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 160px 0 50px;
+}
+main h1
+{
+    font-size:60px;
+}
+.input-group-lg .form-control, .input-group-lg .btn
+{
+    border-radius: 0;
+    line-height: 50px;
+}
+.EnjoyOnTv{
+    border-top: 8px solid #222;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-column-gap: 75px;
+    padding: 10px 100px;
+}
+.EnjoyOnTv .text-white
+{
+  padding: 25% 0;
+}
